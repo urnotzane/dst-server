@@ -1,42 +1,16 @@
 return {
   -- ANCHOR epic 史诗级血量
-  ["workshop-1079538195"]={
-  ["configuration_options"]={
-    ["beebox"]=true,
-    ["birdcage"]=true,
-    ["cartographydesk"]=true,
-    ["cookpot"]=true,
-    ["dragonflychest"]=true,
-    ["dragonflyfurnace"]=true,
-    ["endtable"]=true,
-    ["firesuppressor"]=true,
-    ["icebox"]=true,
-    ["lightning_rod"]=true,
-    ["meatrack"]=true,
-    ["modsupport"]=true,
-    ["moondial"]=true,
-    ["mushroom_farm"]=true,
-    ["mushroom_light"]=true,
-    ["nightlight"]=true,
-    ["perdshrine"]=true,
-    ["pottedfern"]=true,
-    ["rainometer"]=true,
-    ["researchlab"]=true,
-    ["researchlab2"]=true,
-    ["researchlab3"]=true,
-    ["researchlab4"]=true,
-    ["resurrectionstatue"]=true,
-    ["saltlick"]=true,
-    ["scarecrow"]=true,
-    ["sculptingtable"]=true,
-    ["succulent_potted"]=true,
-    ["townportal"]=true,
-    ["treasurechest"]=true,
-    ["wardrobe"]=true,
-    ["winterometer"]=true 
+  ["workshop-1185229307"]={
+    ["configuration_options"]={
+      [""]="",
+      ["damage"]=true,
+      ["noepic"]=false,
+      ["nonoepic"]=false,
+      ["offset"]=0,
+      ["phase"]=true 
+    },
+    ["enabled"]=true 
   },
-  ["enabled"]=true 
-},
 -- ANCHOR 智能小木牌
 ["workshop-1595631294"]={
   configuration_options={
