@@ -350,17 +350,5 @@ return {
     winterometer=true 
   },
   enabled=true 
-},
--- ANCHOR 狗头
-["workshop-2002991372"]={
-  configuration_options={
-    ["Q for lol"]=99,
-    Q_coolingtime=5,
-    ["R for lol"]=118,
-    R_consume=300,
-    R_duration=40,
-    check_souls=122 
-  },
-  enabled=true 
 }
 }
