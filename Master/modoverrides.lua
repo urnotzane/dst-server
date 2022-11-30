@@ -123,27 +123,35 @@ return {
 },
 -- ANCHOR Boss预测器
 ["workshop-2510473186"]={
-  configuration_options={
-    antlion=true,
-    atrium_gate_cooldown=true,
-    atrium_gate_destable=true,
-    bearger=true,
-    beequeenhive=true,
-    crabking_spawner=true,
-    deerclops=true,
-    dragonfly_spawner=true,
-    fruitfly=false,
-    klaus=true,
-    malbatross=true,
-    null=0,
-    prioritytype="leasttimefirst",
-    showname=false,
-    toadstool=true 
+  ["configuration_options"]={
+    ["antlion"]=true,
+    ["atrium_gate_cooldown"]=true,
+    ["atrium_gate_destable"]=true,
+    ["bearger"]=true,
+    ["beequeenhive"]=true,
+    -- boss预测框
+    ["bossposX"]=200,
+    ["bossposY"]=80,
+    ["crabking_spawner"]=true,
+    ["deerclops"]=true,
+    ["dragonfly_spawner"]=true,
+    ["fontsize"]=16,
+    ["fruitfly"]=false,
+    -- 猎犬预测框
+    ["houndposX"]=80,
+    ["houndposY"]=80,
+    ["klaus"]=true,
+    ["malbatross"]=true,
+    ["null"]=0,
+    ["prioritytype"]="leasttimefirst",
+    ["showname"]=true,
+    ["toadstool"]=true,
+    ["widgetalign"]="leftbottom",
+    ["widgetheight"]=60,
+    ["widgetwidth"]=60 
   },
-  enabled=true 
+  ["enabled"]=true 
 },
--- ANCHOR 猎犬预测器
-["workshop-2512988342"]={ configuration_options={  }, enabled=true },
 -- ANCHOR 全球定位
 ["workshop-2528036914"]={
   configuration_options={
@@ -350,5 +358,19 @@ return {
     winterometer=true 
   },
   enabled=true 
-}
+},
+-- ANCHOR 攻击范围展示
+["workshop-2078243581"]={
+  ["configuration_options"]={
+    ["Blue"]=0,
+    ["Display"]="target",
+    ["Green"]=0,
+    ["Projectile"]=true,
+    ["Red"]=1,
+    ["Type"]="hit" 
+  },
+  ["enabled"]=true 
+},
+-- LOL标记，Ctrl 右键
+["workshop-2868261831"]={ ["configuration_options"]={  }, ["enabled"]=true },
 }
